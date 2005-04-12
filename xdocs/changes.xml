@@ -1,0 +1,15 @@
+<document>
+  <properties>
+    <title>Apache Derby changes</title>
+    <author email="tryggvi@idega.com">Tryggvi Larusson</author>
+  </properties>
+  <body>
+  
+    <release version="10.0.2.1" date="2005-04-12">
+      <action dev="tryggvil" type="update">
+        Declaration of first Derby version for use with idegaWeb
+      </action>
+    </release>
+
+  </body>
+</document>

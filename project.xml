@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <pomVersion>3</pomVersion>
+  <extend>${base.project.dir}/base-project.xml</extend>
+  <artifactId>org.apache.derby</artifactId>
+  <name>Apache Derby Database</name>
+  <groupId>bundles</groupId>
+  <currentVersion>10.0.2.1</currentVersion>
+  <organization>Apache Software Foundation</organization>
+  <inceptionYear>2004</inceptionYear>
+  <description>Apache Derby Database</description>
+  <shortDescription>Apache Derby Database</shortDescription>
+  <issueTrackingUrl>http://issues.idega.is</issueTrackingUrl>
+  <developers>
+    <developer>
+      <name>Tryggvi Larusson</name>
+      <id>tryggvil</id>
+      <email>tryggvi@idega.is</email>
+      <organization>idega software</organization>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derby</artifactId>
+      <version>10.0.2.1</version>
+      <type>jar</type>
+      <url>http://incubator.apache.org/derby/</url>
+      <properties>
+        <idegaweb.bundle.include>true</idegaweb.bundle.include>
+      </properties>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derbynet</artifactId>
+      <version>10.0.2.1</version>
+      <type>jar</type>
+      <url>http://incubator.apache.org/derby/</url>
+      <properties>
+        <idegaweb.bundle.include>true</idegaweb.bundle.include>
+      </properties>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derbytools</artifactId>
+      <version>10.0.2.1</version>
+      <type>jar</type>
+      <url>http://incubator.apache.org/derby/</url>
+      <properties>
+        <idegaweb.bundle.include>true</idegaweb.bundle.include>
+      </properties>
+    </dependency>
+  </dependencies>
+  <build>
+    <nagEmailAddress>tryggvi@idega.com</nagEmailAddress>
+    <sourceDirectory>src/java</sourceDirectory>
+    <unitTestSourceDirectory>src/test</unitTestSourceDirectory>
+  </build>
+</project>
