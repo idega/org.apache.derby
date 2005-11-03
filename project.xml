@@ -6,7 +6,7 @@
   <artifactId>org.apache.derby</artifactId>
   <name>Apache Derby Database</name>
   <groupId>bundles</groupId>
-  <currentVersion>10.0.2.1</currentVersion>
+  <currentVersion>10.1.1.0-SNAPSHOT</currentVersion>
   <organization>Apache Software Foundation</organization>
   <inceptionYear>2004</inceptionYear>
   <description>Apache Derby Database</description>
@@ -24,7 +24,7 @@
     <dependency>
       <groupId>org.apache.derby</groupId>
       <artifactId>derby</artifactId>
-      <version>10.0.2.1</version>
+      <version>10.1.1.0</version>
       <type>jar</type>
       <url>http://incubator.apache.org/derby/</url>
       <properties>
@@ -34,7 +34,7 @@
     <dependency>
       <groupId>org.apache.derby</groupId>
       <artifactId>derbynet</artifactId>
-      <version>10.0.2.1</version>
+      <version>10.1.1.0</version>
       <type>jar</type>
       <url>http://incubator.apache.org/derby/</url>
       <properties>
@@ -44,7 +44,7 @@
     <dependency>
       <groupId>org.apache.derby</groupId>
       <artifactId>derbytools</artifactId>
-      <version>10.0.2.1</version>
+      <version>10.1.1.0</version>
       <type>jar</type>
       <url>http://incubator.apache.org/derby/</url>
       <properties>

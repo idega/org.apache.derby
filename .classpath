@@ -3,11 +3,11 @@
 <classpath>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
   </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/org.apache.derby/jars/derby-10.0.2.1.jar">
+  <classpathentry kind="var" path="MAVEN_REPO/org.apache.derby/jars/derby-10.1.1.0.jar">
   </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/org.apache.derby/jars/derbynet-10.0.2.1.jar">
+  <classpathentry kind="var" path="MAVEN_REPO/org.apache.derby/jars/derbynet-10.1.1.0.jar">
   </classpathentry>
-  <classpathentry kind="var" path="MAVEN_REPO/org.apache.derby/jars/derbytools-10.0.2.1.jar">
+  <classpathentry kind="var" path="MAVEN_REPO/org.apache.derby/jars/derbytools-10.1.1.0.jar">
   </classpathentry>
   <classpathentry kind="output" path="target/classes">
   </classpathentry>
